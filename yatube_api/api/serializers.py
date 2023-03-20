@@ -1,6 +1,5 @@
 from rest_framework.serializers import ModelSerializer, SlugRelatedField
 
-
 from posts.models import Comment, Group, Post
 
 
