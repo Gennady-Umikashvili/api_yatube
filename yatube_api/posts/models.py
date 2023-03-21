@@ -28,7 +28,7 @@ class Post(models.Model):
     )
     image = models.ImageField(
         upload_to="posts/", blank=True, verbose_name="Картинка"
-    )  # поле для картинки
+    )
     group = models.ForeignKey(
         Group,
         on_delete=models.SET_NULL,
